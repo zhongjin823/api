@@ -1,0 +1,13 @@
+2020-03-15 16:25:21,082 INFO cnodeApi hello
+2020-03-15 16:27:11,766 INFO cnodeApi 编号:1,请求url:http://39.107.96.138:3000/api/v1/topics,方法:post,数据:{"accesstoken":"e34b32e1-1c93-4498-a333-02b447ca6abb","title":"","tab":"tab","content":"ssssssssss"},期望结果:{"success":false,"error_msg":"标题不能为空"}
+2020-03-15 16:27:12,231 INFO cnodeApi 编号:1运行通过
+2020-03-15 16:27:12,236 INFO cnodeApi 编号:2,请求url:http://39.107.96.138:3000/api/v1/topics,方法:post,数据:{"accesstoken":"e34b32e1-1c93-4498-a333-02b447ca6abb","title":"123131312312","tab":"tab","content":"ssssssssss"},期望结果:{"success":false,"error_msg":"必须选择一个版块"}
+2020-03-15 16:27:12,630 INFO cnodeApi 编号:2运行通过
+2020-03-15 16:27:12,633 INFO cnodeApi 编号:3,请求url:http://39.107.96.138:3000/api/v1/topics,方法:post,数据:{"accesstoken":"e34b32e1-1c93-4498-a333-02b447ca6aaa","title":"123131312312","tab":"ask","content":"ssssssssss"},期望结果:{"success":false,"error_msg":"错误的accessToken"}
+2020-03-15 16:27:13,027 INFO cnodeApi 编号:3运行通过
+2020-03-15 16:41:42,743 INFO cnodeApi 编号:1,请求url:http://39.107.96.138:3000/api/v1/topics,方法:post,数据:{"accesstoken":"e34b32e1-1c93-4498-a333-02b447ca6abb","title":"","tab":"tab","content":"ssssssssss"},期望结果:{"success":false,"error_msg":"标题不能为空"}
+2020-03-15 16:41:43,211 INFO cnodeApi 编号:1运行通过
+2020-03-15 16:41:43,218 INFO cnodeApi 编号:2,请求url:http://39.107.96.138:3000/api/v1/topics,方法:post,数据:{"accesstoken":"e34b32e1-1c93-4498-a333-02b447ca6abb","title":"123131312312","tab":"tab","content":"ssssssssss"},期望结果:{"success":false,"error_msg":"必须选择一个版块"}
+2020-03-15 16:41:43,597 INFO cnodeApi 编号:2运行通过
+2020-03-15 16:41:43,604 INFO cnodeApi 编号:3,请求url:http://39.107.96.138:3000/api/v1/topics,方法:post,数据:{"accesstoken":"e34b32e1-1c93-4498-a333-02b447ca6aaa","title":"123131312312","tab":"ask","content":"ssssssssss"},期望结果:{"success":false,"error_msg":"错误的accessToken"}
+2020-03-15 16:41:43,993 INFO cnodeApi 编号:3运行通过
